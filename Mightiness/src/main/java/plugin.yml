@@ -1,0 +1,14 @@
+main: mightiness.Main
+name: Mightiness
+version: 1.0.0
+author: UnlimitedGamesNetwork
+description: Made by PublicGameCoder.
+api-version: 1.14
+softdepends: [FastAsyncWorldEdit]
+
+commands:
+   mightiness:
+      description: The Mightiness main command!
+      permission: Mightiness.Admin
+      usage: "Unknown command. Type \"/help\" for help."
+      aliases: [min, help, info]
