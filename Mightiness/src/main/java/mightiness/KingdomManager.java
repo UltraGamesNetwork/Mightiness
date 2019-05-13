@@ -77,6 +77,8 @@ public class KingdomManager implements CommandExecutor {
 					}
 				}
 				
+				KingdomManager.kingdomsboard.getTeam("TPSCounter").setPrefix(ChatColor.YELLOW+"> "+ChatColor.GRAY+"TPS: "+Main.currentTPS);
+				
 				int c = kingdoms.size();
 				for (int i = 0; i < c; i++) {
 					kingdoms.get(i).Update();

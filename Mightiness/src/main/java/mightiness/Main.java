@@ -18,6 +18,9 @@ public class Main extends JavaPlugin implements Listener {
 	private Map<UUID, Integer> userIDs;
 	private int _latestUserID;
 	
+	public static int currentTPS = 0;
+	private long second = 0;
+	
 	@Override
 	public void onEnable() {
 		_instance = this;
@@ -38,6 +41,28 @@ public class Main extends JavaPlugin implements Listener {
 		}
 		
 		Main.getInstance().getCommand("mightiness").setExecutor(KingdomManager.getManager());
+		
+		getServer().getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
+			long sec;
+			int ticks;
+			
+			@Override
+			public void run()
+			{
+				sec = (System.currentTimeMillis() / 1000);
+				
+				if(second == sec)
+				{
+					ticks++;
+				}
+				else
+				{
+					second = sec;
+					currentTPS = (currentTPS == 0 ? ticks : ((currentTPS + ticks) / 2));
+					ticks = 0;
+				}
+			}
+		}, 20, 1);
 	}
 	
 	@Override

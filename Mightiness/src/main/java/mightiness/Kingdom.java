@@ -76,7 +76,7 @@ class Kingdom implements Listener {
 			
 			kingdomInfo.setDisplayName(KingdomManager.boardDisplay);
 			
-			board.getTeam("C"+userID).setPrefix(ChatColor.YELLOW+"> "+ChatColor.DARK_AQUA+"Cordinates: "+ChatColor.AQUA+""+player.getLocation().getBlockX() + " " + +player.getLocation().getBlockY() + " "  + +player.getLocation().getBlockZ());
+			board.getTeam("C"+userID).setPrefix(ChatColor.YELLOW+"> "+ChatColor.DARK_AQUA+"Coordinates: "+ChatColor.AQUA+""+player.getLocation().getBlockX() + " " + +player.getLocation().getBlockY() + " "  + +player.getLocation().getBlockZ());
 		}
 	}
 
@@ -106,14 +106,14 @@ class Kingdom implements Listener {
 		}
 		
 		kingdomInfo.setDisplaySlot(DisplaySlot.SIDEBAR);
-		kingdomInfo.getScore(ChatColor.YELLOW+"> "+ChatColor.GOLD+"Kingdom: "+ChatColor.AQUA+_name).setScore(6);
+		kingdomInfo.getScore(ChatColor.YELLOW+"> "+ChatColor.GOLD+"Kingdom: "+ChatColor.AQUA+_name).setScore(7);
 		
 		KingdomRole role = _members.get(player.getUniqueId());
-		kingdomInfo.getScore(ChatColor.YELLOW+"> "+ChatColor.GOLD+"Rank: "+ChatColor.AQUA+role.Prefix).setScore(5);
+		kingdomInfo.getScore(ChatColor.YELLOW+"> "+ChatColor.GOLD+"Rank: "+ChatColor.AQUA+role.Prefix).setScore(6);
 		
-		kingdomInfo.getScore(ChatColor.translateAlternateColorCodes('&', "&1")).setScore(4);
+		kingdomInfo.getScore(ChatColor.translateAlternateColorCodes('&', "&1")).setScore(5);
 		
-		kingdomInfo.getScore(ChatColor.YELLOW+"> "+ChatColor.GOLD+"Location: "+ChatColor.AQUA+"Wilderness").setScore(3);
+		kingdomInfo.getScore(ChatColor.YELLOW+"> "+ChatColor.GOLD+"Location: "+ChatColor.AQUA+"Wilderness").setScore(4);
 		
 		Team cordsTeam = board.getTeam("C"+userID);
 		if (cordsTeam == null) {
@@ -124,9 +124,20 @@ class Kingdom implements Listener {
 		cordsTeam.addEntry(cordsEntry);
 		cordsTeam.setPrefix(ChatColor.YELLOW+"> "+ChatColor.DARK_AQUA+"Coordinates: "+ChatColor.AQUA+""+player.getLocation().getBlockX() + " " + +player.getLocation().getBlockY() + " "  + +player.getLocation().getBlockZ());
 		
-		kingdomInfo.getScore(cordsEntry).setScore(2);
+		kingdomInfo.getScore(cordsEntry).setScore(3);
 		
-		kingdomInfo.getScore(ChatColor.translateAlternateColorCodes('&', "&2")).setScore(1);
+		kingdomInfo.getScore(ChatColor.translateAlternateColorCodes('&', "&2")).setScore(2);
+		
+		Team tpsTeam = board.getTeam("TPSCounter");
+		if (tpsTeam == null) {
+			tpsTeam = board.registerNewTeam("TPSCounter");
+		}
+		
+		String tpsEntry = ChatColor.translateAlternateColorCodes('&', "&e&1");
+		tpsTeam.addEntry(tpsEntry);
+		tpsTeam.setPrefix(ChatColor.YELLOW+"> "+ChatColor.GRAY+"TPS: "+Main.currentTPS);
+		
+		kingdomInfo.getScore(tpsEntry).setScore(1);
 		
 		kingdomInfo.getScore(ChatColor.GRAY+"play.unlimitedgamesnetwork.com").setScore(0);
 		
