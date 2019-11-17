@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/cobweb", "weight": 25 },
+            { "model": "block/cobweb1", "weight": 25 },
+            { "model": "block/cobweb2", "weight": 25 },
+            { "model": "block/cobweb3", "weight": 25 }
+        ]
+    }
+}

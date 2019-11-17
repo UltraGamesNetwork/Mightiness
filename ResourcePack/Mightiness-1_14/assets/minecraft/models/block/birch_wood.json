@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "block/birch_bark_top",
+        "side": "block/birch_log"
+    }
+}

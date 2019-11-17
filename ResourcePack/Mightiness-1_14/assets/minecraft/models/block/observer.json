@@ -1,0 +1,12 @@
+{
+    "__comment": "JimStoneCraft - 2019",
+    "parent": "block/custom_orientable",
+    "textures": {
+        "particle": "block/observer_front",
+        "top": "block/observer_top",
+        "bottom": "block/observer_bottom",
+        "front": "block/observer_front",
+        "side": "block/observer_side",
+        "back": "block/observer_back"
+    }
+}

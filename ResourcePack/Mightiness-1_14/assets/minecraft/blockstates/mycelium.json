@@ -1,0 +1,28 @@
+{
+    "__comment": "JimStoneCraft - 2019",
+    "variants": {
+        "snowy=false": [
+            { "model": "block/mycelium", "weight": 60 },
+            { "model": "block/mycelium", "weight": 60, "y": 90 },
+            { "model": "block/mycelium", "weight": 60, "y": 180 },
+            { "model": "block/mycelium", "weight": 60, "y": 270 },
+            { "model": "block/mycelium1", "weight": 5 },
+            { "model": "block/mycelium1", "weight": 5, "y": 90 },
+            { "model": "block/mycelium1", "weight": 5, "y": 180 },
+            { "model": "block/mycelium1", "weight": 5, "y": 270 },
+            { "model": "block/mycelium2", "weight": 10 },
+            { "model": "block/mycelium2", "weight": 10, "y": 90 },
+            { "model": "block/mycelium2", "weight": 10, "y": 180 },
+            { "model": "block/mycelium2", "weight": 10, "y": 270 },
+            { "model": "block/mycelium3", "weight": 15 },
+            { "model": "block/mycelium3", "weight": 15, "y": 90 },
+            { "model": "block/mycelium3", "weight": 15, "y": 180 },
+            { "model": "block/mycelium3", "weight": 15, "y": 270 },
+            { "model": "block/mycelium4", "weight": 10 },
+            { "model": "block/mycelium4", "weight": 10, "y": 90 },
+            { "model": "block/mycelium4", "weight": 10, "y": 180 },
+            { "model": "block/mycelium4", "weight": 10, "y": 270 }
+        ],
+        "snowy=true":  { "model": "block/mycelium_snow" }
+    }
+}

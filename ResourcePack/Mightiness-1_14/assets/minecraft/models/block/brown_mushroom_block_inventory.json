@@ -1,0 +1,10 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "block/brown_mushroom_block_end",
+        "top": "block/brown_mushroom_block_end",
+        "side": "block/brown_mushroom_block"
+    }
+}
+

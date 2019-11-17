@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/wither_rose" },
+            { "model": "block/wither_rose1" },
+            { "model": "block/wither_rose2" },
+            { "model": "block/wither_rose3" }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/fern", "weight": 50 },
+            { "model": "block/fern1", "weight": 50 }
+        ]
+    }
+}

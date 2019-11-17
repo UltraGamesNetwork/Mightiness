@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "block/red_nether_bricks_bottom2",
+        "top": "block/red_nether_bricks_top2",
+        "side": "block/red_nether_bricks5"
+    }
+}

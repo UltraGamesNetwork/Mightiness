@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/button_inventory",
+    "textures": {
+        "texture": "block/oak_button"
+    }
+}

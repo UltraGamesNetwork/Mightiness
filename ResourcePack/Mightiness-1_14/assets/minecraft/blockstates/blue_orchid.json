@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/blue_orchid", "weight": 25 },
+            { "model": "block/blue_orchid1", "weight": 25 },
+            { "model": "block/blue_orchid2", "weight": 25 },
+            { "model": "block/blue_orchid3", "weight": 25 }
+        ]
+    }
+}

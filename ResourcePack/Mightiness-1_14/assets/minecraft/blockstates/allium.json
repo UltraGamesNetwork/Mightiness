@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/allium", "weight": 25 },
+            { "model": "block/allium1", "weight": 25 },
+            { "model": "block/allium2", "weight": 25 },
+            { "model": "block/allium3", "weight": 25 }
+        ]
+    }
+}

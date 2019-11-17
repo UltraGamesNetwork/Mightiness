@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "block/mossy_stone_bricks2",
+        "top": "block/mossy_stone_bricks_top2",
+        "side": "block/mossy_stone_bricks2"
+    }
+}

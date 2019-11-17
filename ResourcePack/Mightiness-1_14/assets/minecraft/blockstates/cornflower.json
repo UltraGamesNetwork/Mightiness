@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/cornflower" },
+            { "model": "block/cornflower1" },
+            { "model": "block/cornflower2" },
+            { "model": "block/cornflower3" }
+        ]
+    }
+}

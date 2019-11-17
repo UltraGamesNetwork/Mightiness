@@ -1,0 +1,12 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/oak_planks", "weight": 30 },
+            { "model": "block/oak_planks1", "weight": 10 },
+            { "model": "block/oak_planks2", "weight": 10 },
+            { "model": "block/oak_planks3", "weight": 10 },
+            { "model": "block/oak_planks4", "weight": 10 }
+        ]
+    }
+}

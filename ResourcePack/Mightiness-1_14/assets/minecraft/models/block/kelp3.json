@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2019",
+    "parent": "block/tinted_cross",
+    "textures": {
+        "particle": "block/kelp3",
+        "cross": "block/kelp3"
+    }
+}

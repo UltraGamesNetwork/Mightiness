@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/custom_fence_side",
+    "textures": {
+        "texture": "block/dark_oak_fence",
+        "top": "block/dark_oak_fence_top",
+        "bottom": "block/dark_oak_fence_bottom"
+    }
+}

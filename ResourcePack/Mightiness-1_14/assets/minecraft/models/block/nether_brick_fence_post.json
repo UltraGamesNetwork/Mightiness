@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/custom_fence_post",
+    "textures": {
+        "texture": "block/nether_brick_fence",
+        "top": "block/nether_brick_fence_top",
+        "bottom": "block/nether_brick_fence_bottom"
+    }
+}

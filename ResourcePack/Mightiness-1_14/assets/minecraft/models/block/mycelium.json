@@ -1,0 +1,10 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "block/mycelium_top",
+        "bottom": "block/dirt",
+        "top": "block/mycelium_top",
+        "side": "block/mycelium_side"
+    }
+}

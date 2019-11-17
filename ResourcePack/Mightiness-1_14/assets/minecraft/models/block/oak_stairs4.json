@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "block/oak_planks4",
+        "top": "block/oak_planks4",
+        "side": "block/oak_planks4"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/fire_floor",
+    "textures": {
+        "particle": "block/fire_3",
+        "fire": "block/fire_3"
+    }
+}

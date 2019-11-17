@@ -1,0 +1,13 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/sandstone", "weight": 30 },
+            { "model": "block/sandstone1", "weight": 15 },
+            { "model": "block/sandstone2", "weight": 15 },
+            { "model": "block/sandstone3", "weight": 15 },
+            { "model": "block/sandstone4", "weight": 15 },
+            { "model": "block/sandstone5", "weight": 10 }
+        ]
+    }
+}

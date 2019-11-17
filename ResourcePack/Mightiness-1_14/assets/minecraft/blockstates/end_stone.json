@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/end_stone", "weight": 50 },
+            { "model": "block/end_stone1", "weight": 25 },
+            { "model": "block/end_stone2", "weight": 25 }
+
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/potted_poppy", "weight": 20 },
+            { "model": "block/potted_poppy1", "weight": 20 },
+            { "model": "block/potted_poppy2", "weight": 20 },
+            { "model": "block/potted_poppy3", "weight": 20 },
+            { "model": "block/potted_poppy4", "weight": 20 }
+        ]
+    }
+}
+

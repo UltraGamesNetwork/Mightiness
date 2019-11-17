@@ -1,0 +1,12 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/flower_pot", "weight": 25 },
+            { "model": "block/flower_pot1", "weight": 25 },
+            { "model": "block/flower_pot2", "weight": 25 },
+            { "model": "block/flower_pot3", "weight": 25 }
+        ]
+    }
+}
+

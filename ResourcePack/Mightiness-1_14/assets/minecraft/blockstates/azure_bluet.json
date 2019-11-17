@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/azure_bluet", "weight": 25 },
+            { "model": "block/azure_bluet1", "weight": 25 },
+            { "model": "block/azure_bluet2", "weight": 25 },
+            { "model": "block/azure_bluet3", "weight": 25 }
+        ]
+    }
+}

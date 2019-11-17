@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/potted_birch_sapling", "weight": 25 },
+            { "model": "block/potted_birch_sapling1", "weight": 25 },
+            { "model": "block/potted_birch_sapling2", "weight": 25 },
+            { "model": "block/potted_birch_sapling3", "weight": 25 }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/custom_door_bottom_hinge",
+    "textures": {
+        "bottom": "block/birch_door_bottom",
+        "top": "block/birch_door_top",
+        "edge": "block/birch_door_edge"
+    }
+}

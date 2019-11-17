@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/anvil",
+    "textures": {
+        "top": "block/chipped_anvil_top"
+    }
+}

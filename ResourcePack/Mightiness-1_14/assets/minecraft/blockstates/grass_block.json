@@ -1,0 +1,28 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "snowy=false": [
+            { "model": "block/grass_block", "weight": 60 },
+            { "model": "block/grass_block", "weight": 60, "y": 90 },
+            { "model": "block/grass_block", "weight": 60, "y": 180 },
+            { "model": "block/grass_block", "weight": 60, "y": 270 },
+            { "model": "block/grass_block1", "weight": 5 },
+            { "model": "block/grass_block1", "weight": 5, "y": 90 },
+            { "model": "block/grass_block1", "weight": 5, "y": 180 },
+            { "model": "block/grass_block1", "weight": 5, "y": 270 },
+            { "model": "block/grass_block2", "weight": 10 },
+            { "model": "block/grass_block2", "weight": 10, "y": 90 },
+            { "model": "block/grass_block2", "weight": 10, "y": 180 },
+            { "model": "block/grass_block2", "weight": 10, "y": 270 },
+            { "model": "block/grass_block3", "weight": 15 },
+            { "model": "block/grass_block3", "weight": 15, "y": 90 },
+            { "model": "block/grass_block3", "weight": 15, "y": 180 },
+            { "model": "block/grass_block3", "weight": 15, "y": 270 },
+            { "model": "block/grass_block4", "weight": 10 },
+            { "model": "block/grass_block4", "weight": 10, "y": 90 },
+            { "model": "block/grass_block4", "weight": 10, "y": 180 },
+            { "model": "block/grass_block4", "weight": 10, "y": 270 }
+        ],
+        "snowy=true":  { "model": "block/grass_block_snow" }
+    }
+}

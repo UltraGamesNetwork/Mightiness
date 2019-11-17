@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2019",
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "block/sandstone_bottom3",
+        "top": "block/sandstone_top3",
+        "side": "block/sandstone3"
+    }
+}

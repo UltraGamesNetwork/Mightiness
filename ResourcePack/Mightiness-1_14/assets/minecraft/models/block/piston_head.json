@@ -1,0 +1,10 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/template_piston_head",
+    "textures": {
+        "unsticky": "block/piston_top_bottom",
+        "side": "block/piston_side",
+        "platform": "block/piston_top",
+        "shaft": "block/piston_shaft"
+    }
+}

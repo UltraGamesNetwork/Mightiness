@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/grass_block",
+    "textures": {
+        "top": "block/grass_block_top2"
+    }
+}

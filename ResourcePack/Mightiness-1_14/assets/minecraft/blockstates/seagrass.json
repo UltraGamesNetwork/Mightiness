@@ -1,0 +1,10 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/seagrass" },
+            { "model": "block/seagrass1" },
+            { "model": "block/seagrass2" }
+        ]
+    }
+}

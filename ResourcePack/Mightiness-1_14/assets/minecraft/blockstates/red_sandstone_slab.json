@@ -1,0 +1,29 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "variants": {
+        "type=bottom": [
+            { "model": "block/red_sandstone_slab", "weight": 40 },
+            { "model": "block/red_sandstone_slab1", "weight": 15 },
+            { "model": "block/red_sandstone_slab2", "weight": 15 },
+            { "model": "block/red_sandstone_slab3", "weight": 10 },
+            { "model": "block/red_sandstone_slab4", "weight": 10 },
+            { "model": "block/red_sandstone_slab5", "weight": 10 }
+        ],
+        "type=top": [
+            { "model": "block/red_sandstone_slab_top", "weight": 40 },
+            { "model": "block/red_sandstone_slab_top1", "weight": 15 },
+            { "model": "block/red_sandstone_slab_top2", "weight": 15 },
+            { "model": "block/red_sandstone_slab_top3", "weight": 10 },
+            { "model": "block/red_sandstone_slab_top4", "weight": 10 },
+            { "model": "block/red_sandstone_slab_top5", "weight": 10 }
+        ],
+        "type=double": [
+            { "model": "block/red_sandstone", "weight": 40 },
+            { "model": "block/red_sandstone1", "weight": 15 },
+            { "model": "block/red_sandstone2", "weight": 15 },
+            { "model": "block/red_sandstone3", "weight": 10 },
+            { "model": "block/red_sandstone4", "weight": 10 },
+            { "model": "block/red_sandstone5", "weight": 10 }
+        ]
+    }
+}

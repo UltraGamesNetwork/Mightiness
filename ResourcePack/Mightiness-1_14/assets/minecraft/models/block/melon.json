@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "block/melon_bottom",
+        "top": "block/melon_top",
+        "side": "block/melon_side"
+    }
+}

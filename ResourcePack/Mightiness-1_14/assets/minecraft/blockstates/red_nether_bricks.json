@@ -1,0 +1,13 @@
+{
+    "__comment": "Jimnether_brickCraft - 2018",
+    "variants": {
+        "": [
+            { "model": "block/red_nether_bricks", "weight": 30 },
+            { "model": "block/red_nether_bricks1", "weight": 10 },
+            { "model": "block/red_nether_bricks2", "weight": 10 },
+            { "model": "block/red_nether_bricks3", "weight": 15 },
+            { "model": "block/red_nether_bricks4", "weight": 25 },
+            { "model": "block/red_nether_bricks5", "weight": 10 }
+        ]
+    }
+}

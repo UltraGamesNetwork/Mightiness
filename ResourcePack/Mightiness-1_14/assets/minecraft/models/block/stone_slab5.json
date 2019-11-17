@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "block/stone5",
+        "top": "block/stone5",
+        "side": "block/stone5"
+    }
+}

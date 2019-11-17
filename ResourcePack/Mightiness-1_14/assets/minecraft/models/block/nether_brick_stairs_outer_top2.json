@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "block/nether_brick_stairs_bottom",
+        "top": "block/nether_brick_stairs2",
+        "side": "block/nether_brick_stairs_top_side"
+    }
+}

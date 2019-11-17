@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2019",
+    "parent": "block/cross",
+    "textures": {
+        "cross": "block/jungle_sapling0"
+    }
+}

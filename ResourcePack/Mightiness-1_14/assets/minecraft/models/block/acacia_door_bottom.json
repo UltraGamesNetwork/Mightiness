@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/custom_door_bottom",
+    "textures": {
+        "bottom": "block/acacia_door_bottom",
+        "top": "block/acacia_door_top",
+        "edge": "block/acacia_door_edge"
+    }
+}

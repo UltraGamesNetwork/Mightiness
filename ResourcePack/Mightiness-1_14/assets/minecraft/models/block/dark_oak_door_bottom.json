@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2018",
+    "parent": "block/custom_door_bottom",
+    "textures": {
+        "bottom": "block/dark_oak_door_bottom",
+        "top": "block/dark_oak_door_top",
+        "edge": "block/dark_oak_door_edge"
+    }
+}
