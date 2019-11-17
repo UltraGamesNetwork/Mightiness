@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.unlimitedgamesnetwork</groupId>
   <artifactId>Mightiness</artifactId>
-  <version>1.14.0</version>
+  <version>1.14.4</version>
   <name>Mightiness</name>
   <build>
       <plugins>
@@ -10,8 +10,8 @@
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-compiler-plugin</artifactId>
               <configuration>
-                  <source>1.7</source>
-                  <target>1.7</target>
+                  <source>1.8</source>
+                  <target>1.8</target>
               </configuration>
           </plugin>
       </plugins>
@@ -27,7 +27,7 @@
     <dependency>
            <groupId>org.spigotmc</groupId>
            <artifactId>spigot</artifactId>
-           <version>1.14-R0.1-SNAPSHOT</version>
+           <version>1.14.4-R0.1-SNAPSHOT</version>
            <scope>provided</scope>
     </dependency>
 </dependencies>
