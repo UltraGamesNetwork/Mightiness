@@ -3,7 +3,7 @@ name: Mightiness
 version: 1.0.0
 author: UnlimitedGamesNetwork
 description: Made by PublicGameCoder & MennoGamed.
-api-version: 1.14
+api-version: 1.15
 
 commands:
    mightiness:
